@@ -1,0 +1,12 @@
+num=int(input('enter a number'))
+square=num*num
+summ=0
+temp=square
+while square>0:
+    a=square%10
+    square=square//10
+    summ=summ+a
+if summ==num:
+    print('number is neon')
+else:
+    print('number is not neon')

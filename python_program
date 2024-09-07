@@ -1,0 +1,5 @@
+a=input('enter a name 88')
+b=int(input('enter born year'))
+c=int(input('eneter current year'))
+e=c-b
+d=print('person is',a,'born on',b,'age is',e)

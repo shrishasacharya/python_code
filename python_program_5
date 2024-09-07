@@ -1,0 +1,15 @@
+num = int(input('Enter a number: '))
+temp = num
+summ = 0
+product = 1
+
+while num > 0:
+    d = num % 10
+    summ += d
+    product *= d
+    num //= 10  # This should be integer division
+
+if summ == product:
+    print(temp, "is a spy number!")
+else:
+    print(temp, "is not a spy number")
